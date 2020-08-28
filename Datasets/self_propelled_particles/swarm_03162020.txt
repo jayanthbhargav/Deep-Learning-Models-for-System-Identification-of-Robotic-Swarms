@@ -1,0 +1,14 @@
+--------Simulation Parameters--------- 
+MAX_ITER = 1000000 # total number of iterations to simulate
+STEP_SIZE = 0.0001 # each step in Euler's method
+AGENT_COUNT = 32
+SAMPLING_RATE = 1000 # This means there are 1000 data points
+COUPLING_STRENGTH = 0.25
+
+-------------Description--------------
+- This simulates a swarm of 32 self-propelled agents.
+- It's a second order system with white gaussian noise ~ N(0,1)
+- No time lag
+- The swarm eventually forms Ring stability
+- This file has 1000 rows - 1000 steps sampled from the swarm simulation
+- This file has 64 columns - column i and i+1 (where i is even and indexing from 0) are the tuples (xi, yi) and (v_xi, v_yi), position and velocity values of the i/2th agent

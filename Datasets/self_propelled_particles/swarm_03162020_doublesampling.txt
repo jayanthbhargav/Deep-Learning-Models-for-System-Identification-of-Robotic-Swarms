@@ -1,0 +1,4 @@
+-------------Description--------------
+Same as swarm_03162020.csv except that sampling rate is doubled.
+This means that there will be 2000 time steps
+Also the initialization is random for both simulations

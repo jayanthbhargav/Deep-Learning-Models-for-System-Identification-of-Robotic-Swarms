@@ -1,0 +1,3 @@
+-------------Description--------------
+Same as swarm_03162020.csv except that there is no noise added
+Also the initialization is random for both simulations
